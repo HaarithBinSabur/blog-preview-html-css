@@ -1,0 +1,94 @@
+
+/* 
+images
+ */
+ img{
+    overflow: hidden;
+    display: inline-block;    
+ }
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+#main-card{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 20%;
+    height: 60%;
+    border: 1px solid black;
+    box-shadow:  rgba(6, 24, 44) 6px 5px 0px 1px;
+}
+
+#card-contents{
+    overflow: hidden;   
+}
+
+#article-image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#hero-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(47, 88%, 63%) ;
+    color: black;
+    margin-top:20px;
+    height: 25px;
+    width: 70px;
+    padding: 0.5;
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+#hero-published{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#card-header{
+    margin-top: 0;
+    font-size: 23px;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+#card-header:hover{
+    color: hsl(47, 88%, 63%) ;
+}
+
+#card-para{
+ margin-top: 0;
+color: hsl(0, 0%, 50%);
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+
+}
+
+#publisher{
+   display: flex;
+   align-items: center;
+margin-top:20px ;
+}
+#hero-image{
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
+#hero-name{
+    font-weight: 800;
+    font-size: 13px;
+}
