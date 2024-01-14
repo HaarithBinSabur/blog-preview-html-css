@@ -30,6 +30,13 @@ body{
 }
 
 
+@media (max-width:800px){
+    #main-card{
+        width: 30%;
+        height: auto;
+
+    }
+}
 @media (max-width:600px){
     #main-card{
         width: 50%;
